@@ -1,0 +1,142 @@
+
+QDockWidget{
+    background-color: #303235 ;
+    color: white;
+    font-size: 14px;
+}
+    
+
+QDockWidget::close-button{
+        background-color: rgb(76, 74, 74);
+         /* Ruta de la imagen del nuevo icono */
+        border: none;
+        
+    }
+QDockWidget::close-button:hover {
+        /* Cambiar el color del botón al pasar el cursor sobre él */
+        background-color: rgb(243, 243, 243);
+       
+    }
+
+
+
+
+
+
+
+
+/*Configuracion de los paneles contenedores */
+QTabWidget::pane {
+    border: 0.1px solid #000000; 
+    background-color: #2e2e2e;
+    font-size: 14px;
+    }
+
+
+/*Configuracion de la barra de menu  */
+QTabBar::tab {
+    background-color: #202224;
+    color: #979696;
+    padding: 6px 16px;
+    margin-right: 1px;   /*separacion*/
+    margin-bottom: 0px;
+    border-radius: 2px 2px 0px 0px;
+    font-size: 13.5px;
+    font-family: "Arial", serif;
+                   
+
+}
+
+/*Configuracion de la barra de menu  seleccionada */
+QTabBar::tab:selected {
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    border-top: 2px solid #0363e2;
+}
+
+
+
+/*Configuracion de los label */
+QLabel {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+QLabel:disabled {
+        color: #505050; /* Color del texto cuando está deshabilitado */
+        
+        }
+
+/*configuramos las cajas de seleccion marcado */
+
+QCheckBox{
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    ;
+}
+
+QCheckBox::indicator {
+    width: 14px; /* Tamaño del indicador (el cuadro que se marca) */
+    height: 13px;
+    border: 1px solid #a6a6a6; /* Borde del indicador */
+    border-radius: 10px,20px,0,0; /* Borde redondeado del indicador */
+
+}
+
+QCheckBox::indicator:checked{
+    width: 14px; /* Tamaño del indicador (el cuadro que se marca) */
+    height: 13px;
+    image:url(iconos/checkedblack.png);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*configuramos las cajas de seleccion*/
+
+QDoubleSpinBox{
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    ;
+}
+
+QDoubleSpinBox:disabled {
+    color: #505050; /* Color del texto cuando está deshabilitado */
+    border: 1px solid #080808;
+    border-radius: 5px;
+
+}
+
+
+
+QDoubleSpinBox::up-button{
+    image:url(iconos/fechaarribablack.png);
+    background-color: rgb(76, 74, 74); /* Cambiar el color de fondo aquí */
+    
+}
+    
+QDoubleSpinBox::down-button {
+    image:url(iconos/fechaoscuro.png);
+    color:#716f6f;
+    background-color: rgb(76, 74, 74); /* Cambiar el color de fondo aquí */
+}
+
+
+
+
+
+/*Configuracion de los separadores */
+QFrame{
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    
+}

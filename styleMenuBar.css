@@ -1,0 +1,35 @@
+QMenuBar{
+    background-color: #1f1f1f ;
+    color: white;
+    padding: 2.5px 10px;
+}
+
+
+
+QMenuBar::item:selected {
+    background-color: #3498db; /* Color de fondo del elemento seleccionado */
+}
+
+
+QMenu{
+    background-color: #1f1f1f ;
+    color: white;
+    padding: 2.5px 10px;
+    border-radius: 10px,10px,0,0;
+}
+
+QMenu::item {
+    padding: 5px 20px; /* Espaciado interno de los elementos del menú desplegable */
+    
+}   
+QMenu::item:selected {
+    background-color: #3498db; /* Color de fondo del elemento seleccionado en el menú desplegable */
+   
+}
+
+
+QMenu::indicator:checked {
+    image: url(iconos/checkedblack.png); /* Ruta de la imagen del "visto" personalizado */
+    width: 16px; /* Ancho de la imagen */
+    height: 16px; /* Alto de la imagen */
+}

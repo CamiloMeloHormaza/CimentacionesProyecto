@@ -1,0 +1,13 @@
+QWidget.VentanaPrincipal{
+    background-color: #181818 ;
+    color: white;
+    border-top: 8px solid white; /* Borde superior blanco */
+}
+
+QSplitter::handle {
+    background-color: #181818 ; /* Color de la manija de redimensionamiento */
+    border: 1px solid   #181818; /* Borde de la manija de redimensionamiento */
+}
+QSplitter::handle:horizontal {
+    border-right: 0px solid firebrick; /* Borde derecho de la manija de redimensionamiento */
+}

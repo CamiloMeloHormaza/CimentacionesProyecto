@@ -1,0 +1,96 @@
+QDockWidget{
+    background-color: #303235 ;
+    color: white;
+    font-size: 14px;
+}
+QDockWidget::close-button{
+    background-color: rgb(76, 74, 74);
+     /* Ruta de la imagen del nuevo icono */
+    border: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+QDockWidget::close-button:hover {
+    /* Cambiar el color del botón al pasar el cursor sobre él */
+    background-color: rgb(243, 243, 243);
+    
+   
+}
+
+/*Configuracion de los paneles contenedores */
+QTabWidget::pane {
+    border: 0.1px solid #000000; 
+    color: rgb(255, 255, 255);
+    background-color: #2e2e2e;
+    font-size: 14px;
+    }
+
+/*Configuracion de la barra de menu  */
+QTabBar::tab {
+    background-color: #202224;
+    color: #979696;
+    padding: 6px 16px;
+    margin-right: 1px;   /*separacion*/
+    margin-bottom: 0px;
+    border-radius: 2px 2px 0px 0px;
+    font-size: 13.5px;
+    font-family: "Arial", serif;
+                   
+
+}
+
+/*Configuracion de la barra de menu  seleccionada */
+QTabBar::tab:selected {
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    border-top: 2px solid #0363e2;
+}
+
+
+/*Configuracion de los label */
+QLabel {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+
+QPushButton{
+    background-color: #3f4044;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+QTableWidget{
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: 2px solid #000000;
+}
+
+QTableWidget::item {
+    padding: 5px; /* Espacio interno de las celdas */
+    border-bottom: 1px solid #ccc; /* Borde inferior de las celdas */
+    background: #444444; /* Color de fondo de las celdas */
+    font-size: 20px;
+    padding: 10px 20px;
+    
+}
+
+
+
+QTableWidget::item:selected {
+    background-color:  #3498db;
+
+    color: #ffffff; /* Color del texto de las celdas seleccionadas */
+}
+    
+QTableWidget::item:hover {
+    background-color: #444444;
+    border: 2px solid #0363e2; /* Color de fondo de las celdas seleccionadas */
+    
+    color: #ffffff; /* Color del texto de las celdas seleccionadas */   
+}

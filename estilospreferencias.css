@@ -1,0 +1,77 @@
+/* estilos.css */
+
+QWidget.Preferencias{
+    background-color: #202224 ;
+    color: white}
+
+
+/*Configuracion de los paneles contenedores */
+QTabWidget::pane {
+    border: 0.1px solid #000000; 
+    background-color: #2e2e2e;
+    }
+
+
+/*Configuracion de la barra de menu  */
+QTabBar::tab {
+    background-color: #202224;
+    color: #979696;
+    padding: 12px 10px;
+    margin-right: 1px;   /*separacion*/
+    margin-bottom: 0px;
+    border-radius: 2px 2px 0px 0px;
+    font-size: 13.6px;
+    font-family: "Arial", serif;
+    
+}
+
+/*Configuracion de la barra de menu  seleccionada */
+QTabBar::tab:selected {
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    border-top: 2px solid #0363e2;
+}
+
+/*Configuracion de los label */
+QLabel {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+/*Configurar los ComboBox */
+QComboBox {
+    border: 0.2px solid #000000; /*con este no salio la seleccion*/
+    border-radius: 5px;
+    background-color:#444444;
+    color: #FFFFFF;
+}
+
+
+/*color items comobobox */
+QComboBox QAbstractItemView {
+    color: #ffffff; /* Rojo (#FF0000) */
+    background-color: #4e4c4c;
+}
+
+/*cambio el icono*/
+QComboBox::down-arrow {
+    background-color: #4e4c4c;
+    image: url(iconos/fechaoscuro.png); /* Ruta de la imagen del nuevo icono */
+    width: 16px; /* Ancho de la imagen */
+    height: 16px; /* Alto de la imagen */
+    border: none;
+}
+
+QPushButton {
+    background-color: #4e4c4c;
+    color:#FFFFFF
+}
+
+
+
+
+
+
+
+
+

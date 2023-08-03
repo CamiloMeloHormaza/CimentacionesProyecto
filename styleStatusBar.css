@@ -1,0 +1,12 @@
+
+QStatusBar{
+    background-color: #1f1f1f ;
+    color: white;
+    border-top :0.1px solid #ffffff;
+
+}
+   
+QLabel{
+    background-color: transparent; 
+    color: rgb(255, 255, 255)};
+    
